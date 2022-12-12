@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/uikit.min.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="" uk-sticky="cls-active: active-sticky">
+      <div class="uk-container">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+          <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+              <li><a href="#" uk-scroll title="Home">Home</a></li>
+              <li>
+                <a href="#features" uk-scroll title="Features">Features</a>
+              </li>
+              <li><a href="#about" uk-scroll title="About">About</a></li>
+              <li><a href="#contact" title="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div id="particles-js"></div>
+    <main>
+      <section id="home" class="heading uk-flex uk-flex-center uk-flex-middle">
+        <a class="scroll-button js-scroll-item" href="#features" uk-scroll>
+          <span class="mouse"><span class="wheel"></span> </span>
+        </a>
+        <div class="uk-container">
+          <h2 class="uk-hidden">Zeent logo</h2>
+          <div>
+            <img
+              class="uk-width-1-2"
+              src="./assets/images/logo.png"
+              id="logo"
+              data-init-position="random"
+              data-init-direction="random"
+              alt="Zeent Tech."
+            />
+          </div>
+        </div>
+      </section>
+      <section id="features" class="features">
+        <div class="uk-container">
+          <h2
+            class="uk-text-center color-white uk-text-bold uk-padding-small"
+            uk-scrollspy="cls: typing"
+            data-typing
+          >
+            Features()
+          </h2>
+
+          <div class="info right">
+            <div class="text">
+              <h4 class="color-white uk-text-center">Transparent for you</h4>
+              <p class="color-white uk-text-center">
+                Monitor your data workflow and increase your earning using
+                technology innovation.
+              </p>
+            </div>
+            <div class="illustration computer">
+              <div class="element background"></div>
+              <div class="element laptop levitation-3"></div>
+              <div class="system">
+                <div class="circle index-1"></div>
+                <div class="circle index-2"></div>
+                <div class="circle index-3"></div>
+                <div class="disc index-1"><div class="inner"></div></div>
+                <div class="disc index-2"><div class="inner"></div></div>
+                <div class="disc index-3"><div class="inner"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="text">
+              <h4 class="title color-white uk-text-center">Problem solver</h4>
+              <p class="paragraph color-white uk-text-center">
+                Once if you have problem. We are here to find the best solution.
+              </p>
+            </div>
+            <div class="illustration astronaut">
+              <div class="element background"></div>
+              <div class="element guy levitation-3"></div>
+              <div class="element green-book levitation-2"></div>
+              <div class="element red-book levitation-1"></div>
+              <div class="system">
+                <div class="circle index-1"></div>
+                <div class="circle index-2"></div>
+                <div class="circle index-3"></div>
+                <div class="disc index-1"><div class="inner"></div></div>
+                <div class="disc index-2"><div class="inner"></div></div>
+                <div class="disc index-3"><div class="inner"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="uk-margin-bottom" id="about">
+        <div class="uk-container">
+          <h2
+            class="uk-text-center color-white uk-text-bold uk-padding-small"
+            uk-scrollspy="cls: typing"
+            data-typing
+          >
+            About()
+          </h2>
+          <div
+            class="uk-child-width-1-3@l uk-child-width-1-2@s uk-child-width-1-1"
+            uk-grid
+            uk-scrollspy="cls: uk-animation-slide-bottom; target: >div>article; delay: 300; repeat: false"
+          >
+            <div>
+              <article>
+                <img src="./assets/images/member-4.svg" alt="" />
+                <h4 class="color-white uk-text-center uk-text-bold">
+                  Hurelhuyag
+                </h4>
+                <p class="color-white uk-text-center">Co-Founder and CTO</p>
+              </article>
+            </div>
+            <div>
+              <article>
+                <img src="./assets/images/member-2.svg" alt="" />
+                <h4 class="color-white uk-text-center uk-text-bold">
+                  Namiruun
+                </h4>
+                <p class="color-white uk-text-center">Co-Founder and CEO</p>
+              </article>
+            </div>
+            <div>
+              <article>
+                <img src="./assets/images/member-3.svg" alt="" />
+                <h4 class="color-white uk-text-center uk-text-bold">
+                  Zolsaikhan
+                </h4>
+                <p class="color-white uk-text-center">General manager</p>
+              </article>
+            </div>
+            <div>
+              <article>
+                <img src="./assets/images/member-5.svg" alt="" />
+                <h4 class="color-white uk-text-center uk-text-bold">
+                  Enkhbolor
+                </h4>
+                <p class="color-white uk-text-center">Developer</p>
+              </article>
+            </div>
+
+            <div>
+              <article>
+                <img src="./assets/images/member-1.svg" alt="" />
+                <h4 class="color-white uk-text-center uk-text-bold">
+                  Erdenebayar
+                </h4>
+                <p class="color-white uk-text-center">Developer</p>
+              </article>
+            </div>
+
+            <div>
+              <article>
+                <img src="./assets/images/member-6.svg" alt="" />
+                <h4 class="color-white uk-text-center uk-text-bold">
+                  Temuulen
+                </h4>
+                <p class="color-white uk-text-center">Developer</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="uk-container">
+          <h2
+            class="uk-text-center color-white uk-text-bold uk-padding-small"
+            uk-scrollspy="cls: typing"
+            data-typing
+          >
+            Contact Us()
+          </h2>
+          <div
+            class="uk-child-width-1-3@l uk-child-width-1-1"
+            uk-grid
+            uk-scrollspy="cls: uk-animation-slide-bottom; target: >div>article; delay: 300; repeat: false"
+          >
+            <div>
+              <article class="uk-border-rounded">
+                <a href="mailto:info@zeent.tech">
+                  <img
+                    src="./assets/images/email-mail-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <p>info@zeent.tech</p>
+                </a>
+              </article>
+            </div>
+            <div>
+              <article>
+                <a href="tel:88024947">
+                  <img src="./assets/images/telephone-svgrepo-com.svg" alt="" />
+                  <p>88024947</p>
+                </a>
+              </article>
+            </div>
+            <div>
+              <article>
+                <a
+                  href="https://www.google.com/maps?ll=47.923709,106.934141&z=16&t=m&hl=mn&gl=MN&mapclient=embed&cid=5668791455923632716"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/placeholder-pin-svgrepo-com.svg"
+                    alt=""
+                  />
+                  <p>BGD, 20th khoroo, Moscow st Ulaanbaatar, 16101</p>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/uikit.min.js"></script>
+    <script src="./assets/js/nextparticle.min.js"></script>
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/root.js"></script>
+  </body>
+</html>
