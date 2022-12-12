@@ -216,7 +216,7 @@ section.features .info .illustration.computer .background {
   height: 287px;
   margin-top: -143px;
   margin-left: -156px;
-  background-image: url("../images/background.52d6dac.svg");
+  background-image: url("../assets/images/background.52d6dac.svg");
 }
 
 section.features .info .illustration .element {
@@ -348,7 +348,7 @@ section.features .info .illustration.astronaut .background {
   height: 287px;
   margin-top: -143px;
   margin-left: -156px;
-  background-image: url(../images/background.ce47f84.svg);
+  background-image: url(../assets/images/background.ce47f84.svg);
 }
 
 section.features .info .illustration.astronaut .guy {
@@ -358,7 +358,7 @@ section.features .info .illustration.astronaut .guy {
   height: 172px;
   margin-top: -86px;
   margin-left: -86px;
-  background-image: url(../images/guy.2ff18c1.svg);
+  background-image: url(../assets/images/guy.2ff18c1.svg);
 }
 @keyframes features-levitation-2 {
   0% {
