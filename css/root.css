@@ -360,6 +360,7 @@ section.features .info .illustration.astronaut .guy {
   margin-left: -86px;
   background-image: url(../assets/images/guy.2ff18c1.svg);
 }
+/* animation 2 */
 @keyframes features-levitation-2 {
   0% {
     transform: translateX(6px) translateY(3px) translateZ(0);
